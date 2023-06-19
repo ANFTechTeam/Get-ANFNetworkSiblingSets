@@ -1,3 +1,21 @@
+#
+#DISCLAIMER
+#
+# This powershell script (Get-ANFNetworkSiblingSets.ps1) is provided as is and is not supported by NetApp or Microsoft. You
+# are encouraged to modify to fit your specific environment and/or requirements. It is strongly recommended
+# to test the functionality before deploying to any business critical or production environments.
+#
+
+#
+# This Script will identify and group your volumes into networkSiblingSets, to prepare for the upgrade 
+#       from Basic<-->Standard Networking
+#       
+
+#
+#   Usage : Get-ANFNetworkSiblingSets -subscriptionId <subscription{Id | Name}> [-csvFile filename]
+#
+
+
 param (
     [string]$subscriptionId = "",
     [string]$csvFile = "",
