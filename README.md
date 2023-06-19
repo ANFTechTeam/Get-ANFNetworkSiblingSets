@@ -14,8 +14,8 @@
 
 
 ### We recommend referring to these documentation links prior to performing any upgrade
- See [Edit Network Features] (https://learn.microsoft.com/en-us/azure/azure-netapp-files/configure-network-features#edit-network-features-option-for-existing-volumes) 
--	https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies#constraints
+- [Edit Network Features](https://learn.microsoft.com/en-us/azure/azure-netapp-files/configure-network-features#edit-network-features-option-for-existing-volumes) 
+-	[Edit Existing Volumes Considerations](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies#constraints)
 
 ** **    
 
@@ -27,5 +27,14 @@
 ### Download the Powerhsell script:
 -	Ensure you are authenticated to your azure tenant, prior to executing
 -	Confirm the PowerShell Modules Az.Accounts and Az.NetAppFiles are installed
+ 
+ ** **
+ 
+## Disclaimer
+
+This powershell script (Get-ANFNetworkSiblingSets.ps1) is provided as is and is not supported by NetApp or Microsoft. You are encouraged to modify to fit your specific environment and/or requirements. It is strongly recommended to test the functionality before deploying to any business critical or production environments.
+
+** **
+
 
     
