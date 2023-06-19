@@ -2,8 +2,7 @@
 
 ## Perform a Pre-Check on Basic &lt;--> Standard Network Upgrade for a Subscription
 
-### In Preperation for Upgrading volume(s), from Basic <--> Standard Networking, Run the PrecheckScript
-###	Get-ANFNetworkSiblingSets which will identify your volumes and group them into networkSiblings
+### In Preperation for Upgrading volume(s), from Basic <--> Standard Networking, Run the Precheck Powershell Script, Get-ANFNetworkSiblingSets, which will identify your volumes and group them into networkSiblings
 
 ** ** 
 
