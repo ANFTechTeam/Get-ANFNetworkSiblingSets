@@ -30,8 +30,14 @@ if ($subscriptionId -eq "" ) {
         exit 
 }
 
+try {
+     $trysub=set-azcontext -subscription $subscriptionId -ErrorAction Stop
+    }
+catch [System.Management.Automation.RuntimeException] {
+    Write-Host "Error : Invalid subScriptionId:" $subscriptionId -foregroundcolor Red
+    Exit
+    }
 
-set-azcontext -subscription $subscriptionId | Out-Null
 
 
 $NetAppAccounts=Get-AzResource | Where-Object {$_.ResourceType -eq "Microsoft.NetApp/netAppAccounts"}
