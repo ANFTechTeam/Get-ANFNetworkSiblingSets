@@ -22,8 +22,7 @@
     ./Get-ANFNetworkSiblingSets -subscriptionId <subscription{Id | Name}>	
                                [-csvFile filename]
 
-- Sample Output from the script is shown [here](https://github.com/ANFTechTeam/Get-ANFNetworkSiblingSets/edit/main/README.md#:~:text=Sample-,Output,-from%20Powershell%20Script)
-
+- Sample Output from the script is shown [here](https://github.com/ANFTechTeam/Get-ANFNetworkSiblingSets/blob/main/Sample%20Output%20from%20Powershell%20Script.png) 
  
 ### Download the Powerhsell script:
 -	Ensure you are authenticated to your azure tenant, prior to executing
