@@ -14,7 +14,7 @@
 
 ### We recommend referring to these documentation links prior to performing any upgrade
 - [Edit Network Features](https://learn.microsoft.com/en-us/azure/azure-netapp-files/configure-network-features#edit-network-features-option-for-existing-volumes) 
--	[Edit Existing Volumes Considerations](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies#constraints)
+- [Edit Existing Volumes Considerations](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies#constraints)
 
 ** **    
 
@@ -22,7 +22,9 @@
     ./Get-ANFNetworkSiblingSets -subscriptionId <subscription{Id | Name}>	
                                [-csvFile filename]
 
-     
+- Sample Output from the script is shown [here](https://github.com/ANFTechTeam/Get-ANFNetworkSiblingSets/edit/main/README.md#:~:text=Sample-,Output,-from%20Powershell%20Script)
+
+ 
 ### Download the Powerhsell script:
 -	Ensure you are authenticated to your azure tenant, prior to executing
 -	Confirm the PowerShell Modules Az.Accounts and Az.NetAppFiles are installed
