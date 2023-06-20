@@ -48,6 +48,6 @@ Install Using Git clone
  ** **
  ## Issues and Feedback?
 
-[ Sunmit an Issue against the repo ](https://github.com/ANFTechTeam/Get-ANFNetworkSiblingSets/issues)
+[ Submit an Issue against the repo ](https://github.com/ANFTechTeam/Get-ANFNetworkSiblingSets/issues)
 
     
