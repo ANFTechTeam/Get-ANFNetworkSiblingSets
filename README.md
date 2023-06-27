@@ -7,13 +7,13 @@ This powershell script (Get-ANFNetworkSiblingSets.ps1) is provided as is and is 
 ## Description
 # Get-ANFNetworkSiblingSets
 
-Perform a Pre-Check on Basic &lt;--> Standard Network Upgrade for a Subscription
+Perform a pre-check on Basic &lt;--> Standard Network Change for a Subscription
 
-In Preperation for Upgrading volume(s), from Basic <--> Standard Networking, Run the Precheck Powershell Script, Get-ANFNetworkSiblingSets, which will identify your volumes and group them into networkSiblings
+In preperation for changing volume(s), from Basic <--> Standard Networking, Run the Powershell Script, Get-ANFNetworkSiblingSets, which will identify your volumes and group them into networkSiblings
 
-Each networkSiblingSet will upgrade all the volumes within the networkSiblingSet set at the same time
+Each networkSiblingSet will change all the volumes within the networkSiblingSet set at the same time
 
-Running the script ahead of time allows you to view how the volumes are grouped into networkSiblingSets, and plan for your upgrade prior to executing the Change Network Feature in the portal.  The output can also be saved to a CSV file, by specifiying a command line option (see below)
+Running the script ahead of time allows you to view how the volumes are grouped into networkSiblingSets, and plan for your change prior to executing the Change Network Feature in the portal.  The output can also be saved to a CSV file, by specifiying a command line option (see below)
 
 ** **
 ## Change Log
@@ -33,6 +33,7 @@ We recommend referring to these documentation links prior to performing any upgr
 
 ## Installation
 Install Using Git clone
+- [Download Code](https://github.com/ANFTechTeam/Get-ANFNetworkSiblingSets.git)
 
 ** **
 ##		Usage : 
